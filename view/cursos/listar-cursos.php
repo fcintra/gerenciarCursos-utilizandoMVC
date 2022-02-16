@@ -1,6 +1,8 @@
 <?php  include __DIR__ . '/../inicio-html.php'; ?>
+<div class="d-flex justify-content-between">
 <a href="/novo-curso" class="btn btn-primary mb-2">Cadastrar novo curso</a>
-
+<a href="/stats-cursos" class="btn btn-success mb-2">Dashboard</a>
+</div>
 <ul class="list-group">
     <?php foreach ($cursos as $curso): ?>
     <li class="list-group-item d-flex justify-content-between">
