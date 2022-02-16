@@ -24,7 +24,7 @@ use Alura\Cursos\Helper\RenderizadorDeHtmlTrait;
 
         echo $this->renderizaHtml('cursos/dashboard-cursos.php', [
             'cursos' => $cursos,
-            'titulo' => 'Dash board cursos'
+            'titulo' => 'Dashboard cursos'
          ]);
        
     }
